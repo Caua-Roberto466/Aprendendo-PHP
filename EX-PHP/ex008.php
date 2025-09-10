@@ -1,3 +1,7 @@
 <?php 
-
+for($i = 1; $i < 21; $i ++){
+    if($i % 2 == 0){
+        echo "$i é número par <br>";
+    }
+}
 ?>
