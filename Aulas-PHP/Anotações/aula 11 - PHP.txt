@@ -1,0 +1,9 @@
+Aula 11 PHP
+
+date() - a função date() em PHP serve para formatar datas, de acordo com o formato informados, exemplo: date('d/m/Y') a saída é 10/11/2025
+
+time() - a função time() passa um timestamp, que é ilegível para humanos, mas pode ser combinada com a função date, e pode ser usada para calcúlos de datas futuras
+
+strtotime() - a função strtotime() converte uma data string em um timestamp, ele toma como paramêtro 
+
+date_default_timezone_set() - a função date_default_timezone_set() define o fuso horário que vai ser trabalhado, mas precisa estar na lista do PHP
