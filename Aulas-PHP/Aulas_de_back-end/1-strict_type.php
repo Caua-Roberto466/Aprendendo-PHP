@@ -11,7 +11,10 @@ verificar(false);
 verificar(1);
 verificar(0);*/
 
-require 'user.php';
+//require 'user.php';
+function persona(String $name){
+    echo $name;
+}
 
 persona(name: 'true');
 ?>
