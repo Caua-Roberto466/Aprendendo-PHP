@@ -1,8 +1,12 @@
 <?php
 declare(strict_types=1);
-function salario(float $vendas, float $totalvendas, float $gastos){
-    $porcentagemVendas = ($vendas / $totalvendas) * 100;
-    $salario = $vendas - $porcentagemVendas - $gastos;
-    echo $salario;
+function salario(float $vendas){
+    $salario = $vendas * 0.60;
+    return $salario;
 }
-salario(100000, 200000, 3000);
+
+$vendas = 15000;
+$valorFuncionairo = &$vendas;
+$salario = salario($vendas);
+
+echo "Seu salário esse mês foi $salario";
